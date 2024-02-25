@@ -1,3 +1,87 @@
 <resources>
     <string name="app_name">Submission Fakhri Rasyad</string>
+    <string-array name="cat_breed_size">
+        <item>Small to medium</item>
+        <item>Medium to Large</item>
+        <item>Small to Medium</item>
+        <item>Medium to large</item>
+        <item>Medium to Large</item>
+        <item>Medium</item>
+        <item>Medium to large</item>
+        <item>Medium to Large</item>
+        <item>Medium</item>
+        <item>Medium to large</item>
+        <item>Medium</item>
+        <item>Medium to large</item>
+    </string-array>
+    <string-array name="cat_breed_coat">
+        <item>Medium</item>
+        <item>Short, Medium, Long</item>
+        <item>Short, Semi-long</item>
+        <item>Short</item>
+        <item>Medium</item>
+        <item>Medium</item>
+        <item>Medium</item>
+        <item>Medium to Long</item>
+        <item>Short</item>
+        <item>Short, plush, dense</item>
+        <item>Short</item>
+        <item>Medium</item>
+    </string-array>
+    <string-array name="cat_breed_weight">
+        <item>Male: 7 to 10 pounds, Female: 6 to 8 pounds</item>
+        <item>Male: 12 to 16 pounds, Female: 7 to 11 pounds</item>
+        <item>Male: 7 to 10 pounds, Female: 5 to 8 pounds</item>
+        <item>Male: 11 to 15 pounds, Female: 8 to 12 pounds</item>
+        <item>Male: 12 to 15 pounds, Female: 8 to 12 pounds</item>
+        <item>Male: 12 to 16 pounds, Female: 8 to 12 pounds</item>
+        <item>Male: 10 to 18 pounds, Female: 6 to 12 pounds</item>
+        <item>Male: 9 to 15 pounds, Female: 6 to 10 pounds</item>
+        <item>Male: 8 to 11 pounds, Female: 6 to 9 pounds</item>
+        <item>Male: 12 to 18 pounds, Female: 9 to 15 pounds</item>
+        <item>Males: 8 to 12 pounds, Female: 6 to 10 pounds</item>
+        <item>Males: 10 to 15 pounds, Female: 6 to 11 pounds</item>
+    </string-array>
+    <string-array name="cat_breed_color">
+        <item>Ruddy, red, blue, fawn</item>
+        <item>White, black, blue, red, cream, chocolate, lavender, cinnamon, fawn, plus various patterns and shadings</item>
+        <item>White, black, blue, red, cream, chocolate, lilac, silver, golden, plus various patterns and shadings</item>
+        <item>White, black, blue, red, cream and silver, plus various patterns and shadings</item>
+        <item>Average, considered moderately talkative and an enthusiastic purrer</item>
+        <item>Balinese - seal point, chocolate point, blue point and lilac point, plus various patterns and shadings; Javanese – red point, cream point and seal point, plus various patterns and shadings</item>
+        <item>Bright orange to light brown, with dark spots or a distinctive marbling pattern</item>
+        <item>Seal point, blue point, chocolate point, lilac point</item>
+        <item>Black</item>
+        <item>Blue, white, black, red, cream, smoke, silver and golden, plus a variety of patterns and shadings</item>
+        <item>Sable, champagne, blue, platinum</item>
+        <item>Any shade of blue, from ash to slate</item>
+    </string-array>
+    <string-array name="cat_breed_name">
+        <item>Abyssinian</item>
+        <item>American Bobtail</item>
+        <item>American Curl</item>
+        <item>American Shorthair</item>
+        <item>American Wirehair</item>
+        <item>Balinese-Javanese</item>
+        <item>Bengal</item>
+        <item>Birman</item>
+        <item>Bombay</item>
+        <item>British Shorthair</item>
+        <item>Burmese</item>
+        <item>Chartreux</item>
+    </string-array>
+    <integer-array name="cat_breed_photo">
+        <item>@drawable/abyssinian_body_7</item>
+        <item>@drawable/americanbobtail_body_6</item>
+        <item>@drawable/americancurlsha_body_6</item>
+        <item>@drawable/americanshorthair_body_6</item>
+        <item>@drawable/americanwirehair_body_6</item>
+        <item>@drawable/javanese_body_6</item>
+        <item>@drawable/bengal_body_6</item>
+        <item>@drawable/birman_body_6</item>
+        <item>@drawable/bombay_body_6</item>
+        <item>@drawable/britishshorthair_body_6</item>
+        <item>@drawable/burmese_body_6</item>
+        <item>@drawable/chartruese_body_6</item>
+    </integer-array>
 </resources>
