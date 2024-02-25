@@ -7,6 +7,10 @@ android {
     namespace = "com.d121211017.submissionfakhrirasyad"
     compileSdk = 33
 
+    buildFeatures{
+        viewBinding = true
+    }
+
     defaultConfig {
         applicationId = "com.d121211017.submissionfakhrirasyad"
         minSdk = 24
