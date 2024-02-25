@@ -1,5 +1,16 @@
 <resources>
     <string name="app_name">Submission Fakhri Rasyad</string>
+    <string name="txt_image_desc">Gambar Detail</string>
+    <string name="txt_breed_name">Cat Breed Name Here</string>
+    <string name="detail_desc">Short desc here</string>
+    <string name="detail_size">Size</string>
+    <string name="detail_size_description">Size Description</string>
+    <string name="detail_weight">Weight</string>
+    <string name="detail_weight_desc">Bagian mengenai rata-rata berat kucing</string>
+    <string name="detail_coat">Coat</string>
+    <string name="detail_coat_desc">Deskripsi coat kucing</string>
+    <string name="detail_color">Color</string>
+    <string name="detail_color_desc">Deskripsi warna bulu kucing</string>
     <string-array name="cat_breed_size">
         <item>Small to medium</item>
         <item>Medium to Large</item>
