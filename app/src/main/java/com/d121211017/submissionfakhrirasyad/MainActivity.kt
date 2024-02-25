@@ -2,7 +2,9 @@ package com.d121211017.submissionfakhrirasyad
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
+import androidx.recyclerview.widget.RecyclerView.LayoutManager
 import com.d121211017.submissionfakhrirasyad.databinding.ActivityMainBinding
 
 class MainActivity : AppCompatActivity() {
@@ -20,6 +22,7 @@ class MainActivity : AppCompatActivity() {
         recyclerView.setHasFixedSize(true)
 
         catBreedList.addAll(getCatBreedData())
+        showRecyclerView()
     }
 
     private fun getCatBreedData() : ArrayList<Breed>{
@@ -28,15 +31,22 @@ class MainActivity : AppCompatActivity() {
         val breedCoat = resources.getStringArray(R.array.cat_breed_coat)
         val breedColor = resources.getStringArray(R.array.cat_breed_color)
         val breedWeight = resources.getStringArray(R.array.cat_breed_weight)
-        val breedPhoto = resources.getIntArray(R.array.cat_breed_photo)
+        val breedDesc = resources.getStringArray(R.array.cat_breed_desc)
+        val breedPhoto = resources.obtainTypedArray(R.array.cat_breed_photo)
+//        val breedPhoto = resources.getIntArray(R.array.cat_breed_photo)
 
         val catBreed = ArrayList<Breed>()
 
         for(i in breedName.indices){
-            val breed = Breed(breedName[i], breedColor[i], breedWeight[i], breedSize[i], breedCoat[i], breedPhoto[i])
+            val breed = Breed(breedName[i], breedColor[i], breedWeight[i], breedSize[i], breedCoat[i], breedDesc[i], breedPhoto.getResourceId(i, 0))
             catBreed.add(breed)
         }
-
         return catBreed
+    }
+
+    private fun showRecyclerView(){
+        recyclerView.layoutManager = LinearLayoutManager(this)
+        val recyclerViewAdapter = BreedListAdapter(catBreedList)
+        recyclerView.adapter = recyclerViewAdapter
     }
 }

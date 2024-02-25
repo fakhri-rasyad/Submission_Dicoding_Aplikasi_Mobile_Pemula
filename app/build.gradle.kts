@@ -6,7 +6,7 @@ plugins {
 
 android {
     namespace = "com.d121211017.submissionfakhrirasyad"
-    compileSdk = 33
+    compileSdk = 34
 
     buildFeatures{
         viewBinding = true

@@ -18,7 +18,7 @@
         android:padding="8dp">
 
         <ImageView
-            android:id="@+id/img_item_photo"
+            android:id="@+id/breed_photo"
             android:layout_width="70dp"
             android:layout_height="100dp"
             android:scaleType="centerCrop"
@@ -28,30 +28,30 @@
             tools:src="@drawable/abyssinian_body_7" />
 
         <TextView
-            android:id="@+id/tv_item_name"
+            android:id="@+id/item_breed_name"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_marginStart="8dp"
             android:layout_marginEnd="8dp"
-            android:layout_toEndOf="@id/img_item_photo"
+            android:layout_toEndOf="@id/breed_photo"
             android:textSize="16sp"
             android:textStyle="bold"
             card_view:layout_constraintEnd_toEndOf="parent"
-            card_view:layout_constraintStart_toEndOf="@+id/img_item_photo"
-            card_view:layout_constraintTop_toTopOf="@+id/img_item_photo"
+            card_view:layout_constraintStart_toEndOf="@+id/breed_photo"
+            card_view:layout_constraintTop_toTopOf="@+id/breed_photo"
             tools:text="@string/txt_breed_name" />
 
         <TextView
-            android:id="@+id/tv_item_description"
+            android:id="@+id/item_breed_desc"
             android:layout_width="0dp"
             android:layout_height="0dp"
             android:layout_marginTop="8dp"
             android:ellipsize="end"
             android:maxLines="5"
-            card_view:layout_constraintBottom_toBottomOf="@+id/img_item_photo"
-            card_view:layout_constraintEnd_toEndOf="@+id/tv_item_name"
-            card_view:layout_constraintStart_toStartOf="@+id/tv_item_name"
-            card_view:layout_constraintTop_toBottomOf="@+id/tv_item_name"
+            card_view:layout_constraintBottom_toBottomOf="@+id/breed_photo"
+            card_view:layout_constraintEnd_toEndOf="@+id/item_breed_name"
+            card_view:layout_constraintStart_toStartOf="@+id/item_breed_name"
+            card_view:layout_constraintTop_toBottomOf="@+id/item_breed_name"
             card_view:layout_constraintVertical_bias="0.0"
             tools:text="@string/detail_desc" />
 

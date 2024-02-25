@@ -11,6 +11,7 @@ data class Breed(
     val weight: String,
     val size: String,
     val coat: String,
+    val desc: String,
     @DrawableRes
     val photo: Int,
 ) : Parcelable
